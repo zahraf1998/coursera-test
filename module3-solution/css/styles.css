@@ -1,0 +1,76 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'arial', sans-serif;
+}
+#header-nav {
+  background-color: #b0b0b0;
+  border-radius: 0;
+  border: 3px solid black;
+}
+.navbar-brand {
+  padding-top: 25px;
+  margin-bottom: 30px;
+}
+.navbar-brand h1 { 
+  color: #000;
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #e6e6e6;
+  border: 3px solid black;
+  font-size: 1.5em;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #000;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border:3px solid #000;
+}
+.navbar-header button.navbar-toggle:focus, .navbar-header button.navbar-toggle:focus .icon-bar  {
+  border:3px solid #e6e6e6; 
+  background-color:#b0b0b0;  
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -60px;
+}
+hr {
+	border-top :2px solid #000;
+	margin:0;
+}
+#menu-categories-title {
+	color: #000;
+	margin-bottom: 30px;
+	margin-top: 0px;
+}
+#main-content div {
+	background-color: #b0b0b0;
+	color: #000;
+}
+
+.row div {
+	margin-bottom: 20px;
+}
+.row {
+	margin-right:0px;
+	margin-left:0px;
+}
+
+@media (max-width: 767px){
+.row {
+	margin-right:20px;
+	margin-left:20px;
+}
+.navbar-brand h1{
+	margin-left:20px;
+}
+}
